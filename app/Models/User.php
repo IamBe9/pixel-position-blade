@@ -47,8 +47,9 @@ class User extends Authenticatable
         ];
     }
 
-    public function employer():BelongsTo
+    public function employer(): \Illuminate\Database\Eloquent\Relations\HasOne
     {
         return $this->hasOne(Employer::class);
     }
+
 }
