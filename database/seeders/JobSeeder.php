@@ -22,6 +22,7 @@ class JobSeeder extends Seeder
         ], [
             'featured' => true,
             'schedule' => 'Part Time'
+
         ]));
     }
 }
